@@ -39,5 +39,7 @@ int maxRotateFunction(vector<int> &nums)
 }
 
 int main() {
+    vector<int> nums = {4, 3, 2, 6};
+    cout << maxRotateFunction(nums) << endl;
     return 0;
 }
